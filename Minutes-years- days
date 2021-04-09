@@ -1,0 +1,118 @@
+resource
+home
+Front End
+HTML
+CSS
+JavaScript
+HTML5
+Schema.org
+php.js
+Twitter Bootstrap
+Responsive Web Design tutorial
+Zurb Foundation 3 tutorials
+Pure CSS
+HTML5 Canvas
+JavaScript Course
+Icon
+Angular
+React
+Vue
+Jest
+Mocha
+NPM
+Yarn
+Back End
+PHP
+Python
+Java
+Node.js
+Ruby
+C programming
+PHP Composer
+Laravel
+PHPUnit
+ASP.NET
+Database
+SQL(2003 standard of ANSI)
+MySQL
+PostgreSQL
+SQLite
+NoSQL
+MongoDB
+Oracle
+Redis
+Apollo GraphQL
+API
+Google Plus API
+Youtube API
+Google Maps API
+Flickr API
+Last.fm API
+Twitter REST API
+Data Interchnage
+XML
+JSON
+Ajax
+Exercises
+HTML CSS Exercises
+JavaScript Exercises
+jQuery Exercises
+jQuery-UI Exercises
+CoffeeScript Exercises
+PHP Exercises
+Python Exercises
+C Programming Exercises
+C# Sharp Exercises
+Java Exercises
+SQL Exercises
+Oracle Exercises
+MySQL Exercises
+SQLite Exercises
+PostgreSQL Exercises
+MongoDB Exercises
+Twitter Bootstrap Examples
+Euler Project
+Others
+Excel Tutorials
+Useful tools
+Google Docs Forms Templates
+Google Docs Slide Presentations
+Number Conversions
+Linux Tutorials
+Quizzes
+Articles
+Java Data Type Exercises: Takes the user to input the minutes, and print the number of years and days for the minutes
+Last update on February 02 2021 13:43:35 (UTC/GMT +8 hours)
+
+ 
+Java Data Type: Exercise-4 with Solution
+Write a Java program to convert minutes into a number of years and days.
+
+Test Data
+Input the number of minutes: 3456789
+
+Java datatype Exercises: Print the number of years and days from minutes 
+Sample Solution:
+
+Java Code:
+
+import java.util.Scanner;
+public class Exercise4 {
+
+    public static void main(String[] Strings) {
+
+
+        double minutesInYear = 60 * 24 * 365;
+
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Input the number of minutes: ");
+
+        double min = input.nextDouble();
+
+        long years = (long) (min / minutesInYear);
+        int days = (int) (min / 60 / 24) % 365;
+
+        System.out.println((int) min + " minutes is approximately " + years + " years and " + days + " days");
+    }
+}
